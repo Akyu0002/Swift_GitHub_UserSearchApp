@@ -23,7 +23,10 @@ struct AppSettingsView: View {
         Stepper(value: $minNumberOfFollowers, in: 1...50, step: 1, label: {
             Text("Min. Number of Followers: \(minNumberOfFollowers)")
         }).padding()
+            .navigationBarTitle("Settings")
+        Spacer()
     }
+        
 }
 
 struct AppSettingsView_Previews: PreviewProvider {

@@ -17,6 +17,7 @@
 		2500E1B22937F84F00F911BC /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500E1B12937F84F00F911BC /* UserDetailsView.swift */; };
 		2500E1B42937F85B00F911BC /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500E1B32937F85B00F911BC /* AppSettingsView.swift */; };
 		2500E1B62937F87400F911BC /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500E1B52937F87400F911BC /* ListItemView.swift */; };
+		2501A19A29428BBE00A62CF4 /* UserDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2501A19929428BBE00A62CF4 /* UserDetailsModel.swift */; };
 		25A2030129398CCD005F51EF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 25A2030029398CCD005F51EF /* Alamofire */; };
 		25A2030329398D49005F51EF /* UserSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A2030229398D49005F51EF /* UserSearchResponseModel.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		2500E1B12937F84F00F911BC /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		2500E1B32937F85B00F911BC /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		2500E1B52937F87400F911BC /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		2501A19929428BBE00A62CF4 /* UserDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsModel.swift; sourceTree = "<group>"; };
 		25A2030229398D49005F51EF /* UserSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			children = (
 				2500E1AB2937F7E000F911BC /* UserModel.swift */,
 				25A2030229398D49005F51EF /* UserSearchResponseModel.swift */,
+				2501A19929428BBE00A62CF4 /* UserDetailsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				2500E19E2937F76200F911BC /* ContentView.swift in Sources */,
 				25A2030329398D49005F51EF /* UserSearchResponseModel.swift in Sources */,
 				2500E1AC2937F7E000F911BC /* UserModel.swift in Sources */,
+				2501A19A29428BBE00A62CF4 /* UserDetailsModel.swift in Sources */,
 				2500E1B22937F84F00F911BC /* UserDetailsView.swift in Sources */,
 				2500E19C2937F76200F911BC /* Tibet_Akyurekli_MAD9137_FinalApp.swift in Sources */,
 			);
@@ -317,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_ASSET_PATHS = "\"Tibet_Akyurekli_MAD9137_Final/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y84R77C42;
 				ENABLE_PREVIEWS = YES;
@@ -331,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.Tibet-Akyurekli-MAD9137-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -346,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_ASSET_PATHS = "\"Tibet_Akyurekli_MAD9137_Final/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y84R77C42;
 				ENABLE_PREVIEWS = YES;
@@ -360,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algonquinlive.Tibet-Akyurekli-MAD9137-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

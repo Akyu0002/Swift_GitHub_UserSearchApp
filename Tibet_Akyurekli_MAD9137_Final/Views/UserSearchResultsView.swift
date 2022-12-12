@@ -8,25 +8,20 @@
 import SwiftUI
 
 struct UserSearchResultsView: View {
-    let users = testUsers
+    @State var users: [User]
     
     
     var body: some View {
         
-        NavigationStack{
+        NavigationStack {
             List(users) { user in
-//                NavigationLink(user.username, destination: UserDetailsView())
-                
-                NavigationLink(destination: UserDetailsView(), label: {
+                NavigationLink(destination: UserDetailsView(url: user.userUrl), label: {
                     ListItemView(user: user)
                 })
             }
+            .frame(minWidth: 0, maxWidth: .infinity)
         }
-    }
-}
-
-struct UserSearchResultsView_Previews: PreviewProvider {
-    static var previews: some View {
-        UserSearchResultsView()
+        .navigationBarTitle("Search Results")
+        .frame(minWidth: 0, maxWidth: .infinity)
     }
 }

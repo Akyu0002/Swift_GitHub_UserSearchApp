@@ -24,14 +24,3 @@ struct User: Identifiable, Codable {
         
     }
 }
-
-// Array of Test Users
-let testUsers = [
-    User(id: 69420, username: "Son", type: "User",
-         avatarUrl: "https://avatars.githubusercontent.com/u/88984176?s=96&v=4", userUrl: " "),
-]
-
-//// Single Test User
-let testUser = User(id: 69420, username: "TibetA", type: "User",
-                    avatarUrl: "https://avatars.githubusercontent.com/u/90468197?v=4", userUrl: "oqhfo")
-

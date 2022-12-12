@@ -18,9 +18,9 @@ struct ListItemView: View {
             // AsyncImage uss URLSession Cache
             AsyncImage(url: URL(string: user.avatarUrl)){ image in
                 image.resizable()
+                    .cornerRadius(8)
                     .frame(width: 75, height: 75)
             } placeholder: {
-//                 ProgressView()
                 
                 // Placeholder Image
                 Image(systemName: "icloud.and.arrow.down.fill")
@@ -39,8 +39,3 @@ struct ListItemView: View {
     }
 }
 
-struct ListItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        ListItemView(user: testUser)
-    }
-}
